@@ -1,4 +1,4 @@
-package com.xinyi.start;
+package com.PMS.start;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.xinyi.start;
+package com.PMS.start;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
