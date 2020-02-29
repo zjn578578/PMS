@@ -8,7 +8,8 @@ public class LoginController {
 	//测试
 	@RequestMapping("/login")
 	public String login() {
-		return "test";
+		return "testa";
+		
 		
 	}
 }
