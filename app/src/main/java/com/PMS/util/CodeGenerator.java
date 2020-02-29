@@ -66,6 +66,9 @@ public class CodeGenerator {
         PackageConfig pc = new PackageConfig();
         pc.setModuleName(scanner("模块名"));
         pc.setParent("com");
+        pc.setService("service");
+        pc.setServiceImpl("service.impl");
+        pc.setXml("mapper.xml");
         mpg.setPackageInfo(pc);
 
         // 自定义配置
@@ -106,7 +109,7 @@ public class CodeGenerator {
         mpg.setCfg(cfg);
 
         // 配置模板
-        TemplateConfig templateConfig = new TemplateConfig();
+     // TemplateConfig templateConfig = new TemplateConfig();
 
         // 配置自定义输出模板
         //指定自定义模板路径，注意不要带上.ftl/.vm, 会根据使用的模板引擎自动识别
@@ -114,8 +117,8 @@ public class CodeGenerator {
         // templateConfig.setService();
         // templateConfig.setController();
 
-        templateConfig.setXml(null);
-        mpg.setTemplate(templateConfig);
+     //   templateConfig.setXml(null);
+     //   mpg.setTemplate(templateConfig);
 
         // 策略配置
         StrategyConfig strategy = new StrategyConfig();
